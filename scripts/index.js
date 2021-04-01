@@ -24,3 +24,4 @@ $.each(text.split(''), function(i, letter){
 
     }, 100 * i);
 });
+

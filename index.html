@@ -1,64 +1,74 @@
 <!DOCTYPE HTML >
 <html>
-
-        <!--HEAD-->
     <head>
+        <title>Jerry Lashley</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <script type="text/javascript" src="scripts/displaychange.js"></script>
         <link rel="stylesheet" href= "styles/main.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
-        <title>Jerry Lashley</title>
-        <link rel="icon" href="images/atmospace-tsp.png" type="image/png" sizes="25x25">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script type="text/javascript" src="scripts/index.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="resources/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+        
     </head>
-        <!--END HEAD-->
 
-        <!--START BODY-->
     <body>
         
-        <!-- WELCOME SECTION START-->
-        <section id="welcome-section">
-            <div class="welcome-text">
-            <h1>
-                <span id="container"></span><span id="cursor">|</span>
-            </h1>
-            <p>I am an IT Professional at <a href="https://madisoncorelabs.com">Madison Core Laboratories.</a></a><br>I enjoy providing companies with simple, effective websites and spreading my knowledge when available.<br>
-            Check out some of my <A href=#projects>projects</a> below</div><p>
+<!--Welcome Section Begins-->
+        <section class="header-section">
+            <div id="header-flexbox">
+                <div id="header-text">
+                    <h1>
+                        <span id="container"></span><span id="cursor">|</span>
+                    </h1>
+                    <p>I enjoy building simple, effective websites,
+                    <br>I am currently an IT Professional at <a target ="_blank" href="https://madisoncorelabs.com">Madison Core Laboratories.</a></p>
+                </div>
+            </div>
+            <div id="socials-flexbox">
+                <a href="https://www.linkedin.com/in/jerry-lashley-iii-226157134/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/jwlashley" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+                <a href="https://twitter.com/@lashley_jerry" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a href="#contact"><i class="fas fa-envelope-square fa-2x"></i></a>
             </div>
         </section>
-        <!-- WELCOME SECTION END-->
-        <section id="socials">
-            <div id="socials">
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x"></i>
-                  </span>
-                  @Lashley_Jerry<br>
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x"></i>
-                  </span>
-                  Jerry Lashley III<br>
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x"></i>
-                  </span>
-                  Jwlashley<br>
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x"></i>
-                  </span>
-                  Jwlashley@atmo.space
-                
+<!--Welcome Section Ends-->
+
+<div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x" href="#resume-container"></a>
+  </div>
+
+
+<!--Project Section Begins-->
+        <section id="body-section">
+            <div id="resume-container">
+                <div class="resume">
+                    <h1>Resume</h1>
+                    <h2>Work Experience</h2>
+                    <p>Madison Core Laboratories</p>
+                        <ul class="summary-items">
+                            <li>Provide daily technical support to all levels of business.</li>
+                            <li>Setup a Hybrid Azure Active Directory system for user authentication to enable better integration with O365 environment.</li>
+                            <li>Assisted in transitioning the provisioning and new-hire processes from an MSP to an in-house process.</li>
+                            <li>Setup virtual servers via Hyper-V for application hosting, printing, and AD.</li>
+                            <li>Modify and execute GPO changes to improve end-user experience.</li>
+                        </ul>
+                    <p>Hexagon Safety & Infrastructure</p>
+                    <h2>Skills</h2>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <h2></h2>
+                </div>
+            </div>
+            <div id="portfolio-container" style="display:none;">
+                <div class="project-item project-atmospace"><h1>Atmospace<h1></div>
+                <div class="project-item project-kiahnarose"><h1>Kiahna Rose Photography</h1></div>
+                <div class="project-item project-portfolio"><h1>Portfolio Site</h1></div>
             </div>
         </section>
+
     </body>
-        <!-- END BODY-->
-
-
-
-
 </html>
