@@ -1,5 +1,5 @@
 html, body{
-    background: #EFF1F3;
+    background: #FDFDFF;
     height: 100%;
     padding: 50px 50px
 }
@@ -13,32 +13,38 @@ html, body{
     overflow: hidden;
     text-align: center;
     width: 100%;
-    height: 50%;
+    height: 30%;
 }
 
 .welcome-text{
     width: 100%;
     text-align: center;
-    position: relative;;
-    text-
+    position: relative;
 }
 
 .welcome-text h1{
-    font-size: 96px;
+    font-size: 4vw;
     font-family: 'Cabin', sans-serif;
-    color: #009FB7;
-    line-height: 1px;
+    color: #62929E;
+    line-height: 60px;
 }
 
 .welcome-text p{
     line-height: 1.6;
     font-family: 'Comfortaa', cursive;
-    color: #696773;
+    color: #546A7B;
 }
 
 .welcome-text a{
-    color: #D36135;
+    color: #C6C5B9;
 }
 .welcome-text a:hover{
     color: #20FC8F
+}
+
+#socials{
+    width: 100%;
+    color: #546A7B;
+    width: 250px;
+    font-family: 'Cabin', sans-serif;
 }
