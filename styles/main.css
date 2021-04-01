@@ -1,0 +1,44 @@
+html, body{
+    background: #EFF1F3;
+    height: 100%;
+    padding: 50px 50px
+}
+
+#welcome-section{
+    border-radius: 25px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.welcome-text{
+    width: 100%;
+    text-align: center;
+    position: relative;;
+    text-
+}
+
+.welcome-text h1{
+    font-size: 96px;
+    font-family: 'Cabin', sans-serif;
+    color: #009FB7;
+    line-height: 1px;
+}
+
+.welcome-text p{
+    line-height: 1.6;
+    font-family: 'Comfortaa', cursive;
+    color: #696773;
+}
+
+.welcome-text a{
+    color: #D36135;
+}
+.welcome-text a:hover{
+    color: #20FC8F
+}
